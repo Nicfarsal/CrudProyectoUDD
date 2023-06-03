@@ -1,0 +1,87 @@
+body {
+    background-color: rgb(113, 99, 99);
+}
+
+
+
+/* Estilos para la barra de navegación */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #d38040;
+    border-radius: 20px;
+
+}
+
+li {
+    float: center;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 20px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #bc2c2c;
+}
+
+/* Estilos para el formulario */
+form {
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    text-align: center;
+
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: left;
+
+}
+
+input[type="text"],
+input[type="email"] {
+    width: 100%;
+    padding: none;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #d38040;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #bc2c2c;
+}
+
+
+/* Media queries para dispositivos móviles */
+@media screen and (max-width: 480px) {
+    form {
+        width: 100%;
+        padding: 10px;
+    }
+
+    input[type="text"],
+    input[type="email"] {
+        width: 100%;
+    }
+}
