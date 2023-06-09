@@ -1,48 +1,76 @@
+/* Estilos para los campos de entrada de tipo texto y correo electrónico */
 input[type="text"],
 input[type="email"] {
     width: 100%;
+    /* Ancho completo */
     padding: 0;
+    /* Sin relleno */
     margin-bottom: 15px;
+    /* Margen inferior */
     border: 1px solid #ccc;
+    /* Borde de 1px sólido de color gris claro */
     border-radius: 5px;
+    /* Borde redondeado de 5px */
 }
 
+/* Estilos para el botón de tipo submit */
 button[type="submit"] {
     padding: 10px 20px;
+    /* Relleno del botón */
     background-color: #d38040;
+    /* Color de fondo del botón */
     color: black;
+    /* Color del texto del botón */
     border: none;
+    /* Sin borde */
     border-radius: 5px;
+    /* Borde redondeado de 5px */
     cursor: pointer;
+    /* Cambio de cursor al pasar por encima del botón */
 }
 
+/* Estilos al pasar por encima del botón de tipo submit */
 button[type="submit"]:hover {
     background-color: #bc2c2c;
+    /* Color de fondo del botón al pasar el cursor por encima */
 }
 
+/* Estilos para el botón de clase eliminar-btn */
 .eliminar-btn {
     background-color: #d38040;
+    /* Color de fondo del botón */
     color: black;
+    /* Color del texto del botón */
     padding: 5px 10px;
+    /* Relleno del botón */
     border: none;
+    /* Sin borde */
     border-radius: 3px;
+    /* Borde redondeado de 3px */
     cursor: pointer;
+    /* Cambio de cursor al pasar por encima del botón */
     margin-right: 5px;
+    /* Margen derecho */
 }
 
+/* Estilos al pasar por encima del botón de clase eliminar-btn */
 .eliminar-btn:hover {
     background-color: #555;
+    /* Color de fondo del botón al pasar el cursor por encima */
 }
 
-/* Media queries para dispositivos móviles */
+/* Media queries para dispositivos móviles con ancho máximo de 480px */
 @media screen and (max-width: 480px) {
     form {
         width: 100%;
+        /* Ancho completo */
         padding: 10px;
+        /* Relleno del formulario */
     }
 
     input[type="text"],
     input[type="email"] {
         width: 100%;
+        /* Ancho completo */
     }
 }
