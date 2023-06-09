@@ -11,8 +11,7 @@
 
 <body>
     <ul>
-        <li><a href="#">Listado De Tareas CRUD</a></li>
-
+        <li><a href="#">Agregar Informacion Cliente</a></li>
     </ul>
 
     <form>
@@ -22,9 +21,20 @@
         <label for="email">Email:</label>
         <input type="email" id="email" name="email" placeholder="Ingresa tu email">
     
-        <button type="submit">Enviar</button>
+        <button type="submit">Guardar</button>
     </form>
 
+    <ul id="tareas-list">
+        
+        <li>
+            <span>Nombre de la tarea</span>
+            <span>Email de la tarea</span>
+            <button class="eliminar-btn">Eliminar</button>
+        </li>
+    </ul>
+
+    <script src="assets/Scripts/app.js"></script>
 </body>
 
 </html>
+
